@@ -33,7 +33,7 @@ This work is divided into the following major directories:
 
   * We trained agents using the Experiments/evaluate_human_reward_functions.py and Experiments/evaluate_human_reward_functions_hp_sweep.py files. 
 
-  ```Plotting Code```
+* ```Plotting Code```
 
   * In the Experiments/Plotting dir contains all the plotting code files used to reproduce the plots and the statistical tests.
   
