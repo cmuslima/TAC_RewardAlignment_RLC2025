@@ -162,7 +162,7 @@ def get_all_reward_functions_per_user(specific_id):
 
 def get_user_reward_functions(use_all=False):
    
-    final_user_reward_data = pd.read_csv(f"{os.getcwd()}/Experiments/human_reward_fns.csv")
+    final_user_reward_data = pd.read_csv(f"{os.getcwd()}/User_Study_Data/human_reward_fns.csv")
     final_user_reward_funcs = final_user_reward_data['Reward Fn'].values
     user_ids = final_user_reward_data['User'].values
 
@@ -220,7 +220,7 @@ def get_specific_user_reward_function(specific_id):
 
    
     # final_user_reward_data = pd.read_csv(f"../Old_User_Studies/Expert-User-Study/user_tests/final_reward_fns.csv")
-    final_user_reward_data = pd.read_csv(f"{os.getcwd()}/Experiments/human_reward_fns.csv")
+    final_user_reward_data = pd.read_csv(f"{os.getcwd()}/User_Study_Data/human_reward_fns.csv")
 
     final_user_reward_funcs = final_user_reward_data['Reward Fn'].values
     user_ids = final_user_reward_data['User'].values
