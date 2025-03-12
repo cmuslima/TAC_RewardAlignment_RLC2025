@@ -1,17 +1,8 @@
 */Experiments/Experiments*
-*old_code*
 ./Experiments/Assets
-./Experiments/4x4
 *__pycache__*
 *.DS_Store*
 *cpython*
 *RL_algorithms/__pycache__*
-*Experiments/scripts/*
-*Experiments/Ranked_Trajectories*
 *Domains/gym-hungry-thirsty/gym_hungry_thirsty/envs/__pycache__/*
-*results*
-*scripts*
-*Behavioral_ML_submission*
 *ipynb_checkpoints*
-*Experiments/Experiments/Env_Easy*
-*html*
