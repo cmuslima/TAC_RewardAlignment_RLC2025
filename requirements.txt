@@ -1,0 +1,8 @@
+gym==0.15.4
+ipywidgets
+Pillow==9.5.0
+matplotlib
+torch
+scipy
+tqdm
+pandas
