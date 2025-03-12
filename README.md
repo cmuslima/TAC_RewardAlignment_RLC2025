@@ -24,19 +24,16 @@ This work is divided into the following major directories:
   * ```Domains/hungry-thristy-user-control.py``` lets you control the agent directly, which gives a feel for the task. 
   
 * ```User_Studies```
-
-Experiments/user_study_notebook_domain_expert_version.ipynb is the UI used for the user study, with supporting functions inside Experiments/user_study_interface_backend_domain_expert.py
-
-In Experiments/User_Study_Data/human_reward_fns.csv contains a list of human reward functions some of which are used in the human subject study.
-
-In RewardDesignUserStudy2025/pilot_version_2_21_anonymized, we have the data from all 11 participants in the user study. 
+  * Experiments/user_study_notebook_domain_expert_version.ipynb is the UI used for the user study, with supporting functions inside Experiments/user_study_interface_backend_domain_expert.py
+  * In Experiments/User_Study_Data/human_reward_fns.csv contains a list of human reward functions some of which are used in the human subject study.
+  * In RewardDesignUserStudy2025/pilot_version_2_21_anonymized, we have the data from all 11 participants in the user study. 
 
 * ```RL_algorithms```
   * This directory contains all of the code for training the agents. In particular, there are implementations for Q-learning, SARSA, Expected SARSA, PPO, A2C, DDQN, and Value Iteration in this directory. 
 
-  We trained agents using the Experiments/evaluate_human_reward_functions.py and Experiments/evaluate_human_reward_functions_hp_sweep.py files. 
+  * We trained agents using the Experiments/evaluate_human_reward_functions.py and Experiments/evaluate_human_reward_functions_hp_sweep.py files. 
 
   ```Plotting Code```
 
-  In the Experiments/Plotting dir contains all the plotting code files used to reproduce the plots and the statistical tests.
+  * In the Experiments/Plotting dir contains all the plotting code files used to reproduce the plots and the statistical tests.
   
