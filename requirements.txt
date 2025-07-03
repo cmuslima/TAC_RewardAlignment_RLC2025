@@ -7,3 +7,6 @@ scipy
 tqdm
 pandas
 seaborn
+pyfiglet
+termcolor
+notebook
