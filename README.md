@@ -1,3 +1,7 @@
+## Trajectory Alignment Coefficient
+Official codebase for: [Towards Improving Reward Design in RL: A Reward Alignment Metric for RL Practitioners](https://arxiv.org/abs/2503.05996)
+
+
 ## Install Virtual Env
 
 * We use conda virtaul environments. Documentation here: https://docs.anaconda.com/miniconda/
