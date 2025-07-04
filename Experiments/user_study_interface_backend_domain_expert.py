@@ -99,6 +99,7 @@ class interface_backend:
             'trajectory_choices': [], 
             'survey_responses': None, 
             'reward_function_choices': [],
+            'reward_function_options': [],
             'close_window_early': [], #this is for the gifs 
             'time': []}
             self.data_to_save.update({condition.__name__: user_inputs})
@@ -855,6 +856,9 @@ class interface_backend:
             self.data_to_save[self.current_function_name]['reward_function_choices'].append((choice, reward_function_names_selected[int(choice)-1]))
         else:
             self.data_to_save[self.current_function_name]['reward_function_choices'].append((choice, None))
+        
+        self.data_to_save[self.current_function_name]['reward_function_options'].append(reward_function_names_selected)
+        print('*****************************')
 
     def print_condition_summary(self):
 
@@ -1160,7 +1164,7 @@ class interface_backend:
 
         for reward_function in self.reward_function_rankings.keys():
 
-            alignment_score = get_alignment.get_trajectory_alignment_coefficent_score(
+            alignment_score = get_alignment.get_trajectory_alignment_coefficient_score(
                 list(self.reward_function_rankings[reward_function].values()), list(self.user_rankings.values())
             )
             self.all_reward_function_alignment_scores.update({str(reward_function):alignment_score})
