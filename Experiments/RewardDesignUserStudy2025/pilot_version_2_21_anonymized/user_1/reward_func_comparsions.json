@@ -1,0 +1,202 @@
+{
+  "alignment_visualization": [
+  {
+    "comparison": 1,
+    "choice": 1,
+    "option_1": {
+      "hungry and thirsty": -0.5,
+      "hungry and not thirsty": -0.5,
+      "not hungry and thirsty": 10.0,
+      "not hungry and not thirsty": 10.0
+    },
+    "option_2": {
+      "hungry and thirsty": -0.05,
+      "hungry and not thirsty": 0.2,
+      "not hungry and thirsty": 1.0,
+      "not hungry and not thirsty": 1.0
+    }
+  },
+  {
+    "comparison": 2,
+    "choice": 1,
+    "option_1": {
+      "hungry and thirsty": -1.0,
+      "hungry and not thirsty": -0.7,
+      "not hungry and thirsty": -0.5,
+      "not hungry and not thirsty": 1.0    },
+    "option_2": {
+      "hungry and thirsty": -0.05,
+      "hungry and not thirsty": 0.2,
+      "not hungry and thirsty": 1.0,
+      "not hungry and not thirsty": 1.0
+    }
+  },
+  {
+    "comparison": 3,
+    "choice": 1,
+    "option_1": {
+      "hungry and thirsty": 0,
+      "hungry and not thirsty": 0,
+      "not hungry and thirsty": 10,
+      "not hungry and not thirsty": 10
+    },
+    "option_2": {
+      "hungry and thirsty": -10,
+      "hungry and not thirsty": 0,
+      "not hungry and thirsty": 10,
+      "not hungry and not thirsty": 10
+    }
+  },
+  {
+    "comparison": 4,
+    "choice": 1,
+    "option_1": 
+    {
+      "hungry and thirsty": -3.75,
+      "hungry and not thirsty": 0.0,
+      "not hungry and thirsty": -3.0,
+      "not hungry and not thirsty": 5.0    },
+    "option_2": {
+      "hungry and thirsty": -5.0,
+      "hungry and not thirsty": 1.5,
+      "not hungry and thirsty": 3.25,
+      "not hungry and not thirsty": 5.0
+    }
+  }
+],
+"reward_func_only": [
+  {
+    "comparison": 1,
+    "choice": 1,
+    "option_1": 
+    {
+      "hungry and thirsty": -0.9,
+      "hungry and not thirsty": -0.7,
+      "not hungry and thirsty": -0.4,
+      "not hungry and not thirsty": 1.1
+    },
+    "option_2": {
+      "hungry and thirsty": -0.05,
+      "hungry and not thirsty": 0.2,
+      "not hungry and thirsty": 1.0,
+      "not hungry and not thirsty": 1.0
+    }
+  },
+  {
+    "comparison": 2,
+    "choice": 1,
+    "option_1": {
+      "hungry and thirsty": -5.0,
+      "hungry and not thirsty": 0.0,
+      "not hungry and thirsty": -2.5,
+      "not hungry and not thirsty": 5.0
+    },
+    "option_2": {
+      "hungry and thirsty": -5.0,
+      "hungry and not thirsty": 1.5,
+      "not hungry and thirsty": 3.25,
+      "not hungry and not thirsty": 5.0
+    }
+  },
+  {
+    "comparison": 3,
+    "choice": 1,
+    "option_1": {
+      "hungry and thirsty": -3.7,
+      "hungry and not thirsty": 0.0,
+      "not hungry and thirsty": -3.1,
+      "not hungry and not thirsty": 5.1
+    },
+    "option_2": {
+      "hungry and thirsty": -3.0,
+      "hungry and not thirsty": 1.5,
+      "not hungry and thirsty": 3,
+      "not hungry and not thirsty": 5.0
+    }
+  }
+, {
+  "comparison": 4,
+  "choice": 1,
+  "option_1": {
+    "hungry and thirsty": -0.4,
+    "hungry and not thirsty": -0.5,
+    "not hungry and thirsty": 0.0,
+    "not hungry and not thirsty": 1.0
+  },
+  "option_2": {
+    "hungry and thirsty": -0.2,
+    "hungry and not thirsty": 0.2,
+    "not hungry and thirsty": 0.5,
+    "not hungry and not thirsty": 1.0
+  }
+}
+],
+"alignment_only": [
+  {
+    "comparison": 1,
+    "choice": 2,
+    "option_1":  {
+      "hungry and thirsty": -1.0,
+      "hungry and not thirsty": -0.05,
+      "not hungry and thirsty": -0.25,
+      "not hungry and not thirsty": 1.0
+    },
+    "option_2":
+    {
+      "hungry and thirsty": -5.0,
+      "hungry and not thirsty": 1.5,
+      "not hungry and thirsty": 3.25,
+      "not hungry and not thirsty": 5.0
+    }
+  },
+  {
+    "comparison": 2,
+    "choice": 1,
+    "option_1": {
+      "hungry and thirsty": -3.6,
+      "hungry and not thirsty": 0.0,
+      "not hungry and thirsty": -3.1,
+      "not hungry and not thirsty": 5.4
+    },
+    "option_2": {
+      "hungry and thirsty": -5.8,
+      "hungry and not thirsty": 1.2,
+      "not hungry and thirsty": 3.6,
+      "not hungry and not thirsty": 5.8
+    }
+  },
+  {
+    "comparison": 3,
+    "choice": 1,
+    "option_1": {
+      "hungry and thirsty": -0.9,
+      "hungry and not thirsty": -0.7,
+      "not hungry and thirsty": -0.4,
+      "not hungry and not thirsty": 1.1
+    },
+    "option_2": {
+      "hungry and thirsty": -1,
+      "hungry and not thirsty": 0,
+      "not hungry and thirsty": 0.5,
+      "not hungry and not thirsty": 1
+    }
+  },
+  {
+    "comparison": 4,
+    "choice": 1,
+    "option_1": {
+      "hungry and thirsty": -5.0,
+      "hungry and not thirsty": 0,
+      "not hungry and thirsty": 3.25,
+      "not hungry and not thirsty": 5.0
+    },
+    "option_2": {
+      "hungry and thirsty": -5.0,
+      "hungry and not thirsty": 1.5,
+      "not hungry and thirsty": 3.25,
+      "not hungry and not thirsty": 5.0
+    }
+  }
+]
+
+}
