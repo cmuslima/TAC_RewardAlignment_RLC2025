@@ -858,7 +858,7 @@ class interface_backend:
             self.data_to_save[self.current_function_name]['reward_function_choices'].append((choice, None))
         
         self.data_to_save[self.current_function_name]['reward_function_options'].append(reward_function_names_selected)
-        print('*****************************')
+
 
     def print_condition_summary(self):
 
